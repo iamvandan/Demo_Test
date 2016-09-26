@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionReuseIdentifier" id="gTV-IL-0wX" customClass="CustomCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="135" height="177"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="135" height="177"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QKN-A3-gFL">
+                        <rect key="frame" x="46" y="85" width="42" height="56"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="1qL-ng-24N"/>
+                            <constraint firstAttribute="height" constant="56" id="kia-vS-B5F"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" red="0.96862745100000003" green="0.56078431370000004" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="QKN-A3-gFL" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="GYe-b9-z7e"/>
+                <constraint firstItem="QKN-A3-gFL" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="24.5" id="aLV-Za-KZe"/>
+            </constraints>
+            <size key="customSize" width="133" height="173"/>
+            <connections>
+                <outlet property="collectionLabel" destination="QKN-A3-gFL" id="vgR-hG-ur5"/>
+            </connections>
+            <point key="canvasLocation" x="166.5" y="186.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
